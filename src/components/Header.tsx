@@ -14,7 +14,8 @@ export function Header() {
           {profile.name}
         </h1>
         <p className="mt-4 text-lg text-muted sm:text-xl">{profile.title}</p>
-        <p className="mt-2 text-sm text-muted">{profile.location}</p>
+        <p className="mt-2 text-sm text-muted">{profile.address}</p>
+        <p className="mt-1 text-sm text-muted">{profile.location}</p>
 
         <div className="mt-8 flex flex-wrap gap-3">
           <a
