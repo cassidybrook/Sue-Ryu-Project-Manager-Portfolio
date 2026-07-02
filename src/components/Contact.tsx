@@ -18,8 +18,8 @@ export function Contact() {
           Let&apos;s connect
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted">
-          Open to conversations about finance, delivery enablement, project
-          management, and cross-functional roles.
+          Open to conversations about project management, finance, and
+          cross-functional roles.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
