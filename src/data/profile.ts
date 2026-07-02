@@ -1,15 +1,14 @@
 export const profile = {
   name: 'Sue Ryu',
-  title: 'Delivery Enablement & Performance Specialist',
-  location: 'Mount Roskill, Auckland, New Zealand',
-  address: '24 Hardley Avenue, Mount Roskill, Auckland',
+  title: 'Project Manager | Finance Professional',
+  location: 'Auckland, New Zealand',
   phone: '021 075 9773',
   email: 'sue.ryu@hotmail.com',
   linkedin: 'https://www.linkedin.com/in/sue-ryu-ca-5285b1195/',
-  cvUrl: '/Sue-Ryu-CV.pdf',
-  cvFilename: 'Sue-Ryu-CV.pdf',
+  cvUrl: '/Sue-Ryu-CV-v2.pdf',
+  cvFilename: 'Sue-Ryu-CV-v2.pdf',
   about:
-    'Finance and delivery professional with a foundation in assurance, reporting, and performance analysis. Currently a Delivery Enablement & Performance Specialist at Air New Zealand, where I support planning, delivery, and cross-functional collaboration in fast-paced environments. Previously a Finance Specialist and Senior Assurance Associate at Ernst & Young, I bring analytical rigour, stakeholder partnership, and a track record of turning financial and operational data into clear, actionable insights.',
+    'Project manager and finance professional with a strong foundation in assurance, FP&A, and corporate reporting. At Air New Zealand, I progressed from financial analysis into project management — developing plans, aligning stakeholders, and coordinating cross-functional teams through complex delivery. Previously a Senior Assurance Associate at Ernst & Young, I bring analytical rigour, stakeholder partnership, and a track record of turning data into clear, actionable insights.',
 } as const
 
 export const navItems = [
@@ -37,26 +36,19 @@ export const education = [
     period: '2015 – 2019',
     details: ['Accounting, Psychology, Criminology'],
   },
-  {
-    id: 'bdsc',
-    institution: 'Botany Downs Secondary College',
-    credential: 'NCEA 1, 2 and 3 with Merit',
-    period: '2010 – 2014',
-    details: [],
-  },
 ] as const
 
 export const experience = [
   {
-    id: 'airnz-deps',
+    id: 'airnz-pm',
     company: 'Air New Zealand',
-    role: 'Delivery Enablement & Performance Specialist',
-    period: 'Apr 2025 – Present',
+    role: 'Project Manager',
+    period: 'Apr 2025 – Jun 2026',
     location: 'Auckland, New Zealand',
     highlights: [
-      'Planning and delivery support — managing competing priorities, adapting to changing business needs, and maintaining strong working relationships to deliver high-quality outcomes',
-      'Financial analysis and business insights — supporting strategic decision-making through reporting, performance analysis, and identifying opportunities to improve business outcomes',
-      'Stakeholder collaboration — partnering with cross-functional teams to solve problems, communicate insights clearly, and support delivery outcomes in fast-paced environments',
+      'Developed and maintained project plans, schedules and budgets to ensure successful delivery on time and within budget',
+      'Engaged and aligned key stakeholders across business units to ensure clarity of project goals and deliverables',
+      'Coordinated cross-functional teams to solve complex problems and remove blockers during project execution',
     ],
   },
   {

@@ -4,34 +4,13 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const outputPath = join(__dirname, '../public/Sue-Ryu-CV.pdf')
+const outputPath = join(__dirname, '../public/Sue-Ryu-CV-v2.pdf')
 
 const ink = rgb(0.1, 0.14, 0.2)
 const muted = rgb(0.36, 0.4, 0.47)
 const accent = rgb(0.24, 0.36, 0.43)
 
 const sections = [
-  {
-    title: 'Education / Qualifications',
-    items: [
-      {
-        heading: 'Provisional Member — CAANZ',
-        period: '2020 – Present',
-        lines: [
-          'Completed modules: Tax, Financial Accounting, Management and Applied Finance, Audit, Capstone',
-        ],
-      },
-      {
-        heading: 'Bachelor of Commerce / Arts — University of Auckland',
-        period: '2015 – 2019',
-        lines: ['Accounting, Psychology, Criminology'],
-      },
-      {
-        heading: 'NCEA 1, 2 and 3 with Merit — Botany Downs Secondary College',
-        period: '2010 – 2014',
-      },
-    ],
-  },
   {
     title: 'Work Experience',
     items: [
@@ -65,6 +44,23 @@ const sections = [
     ],
   },
   {
+    title: 'Education / Qualifications',
+    items: [
+      {
+        heading: 'Provisional Member — CAANZ',
+        period: '2020 – Present',
+        lines: [
+          'Completed modules: Tax, Financial Accounting, Management and Applied Finance, Audit, Capstone',
+        ],
+      },
+      {
+        heading: 'Bachelor of Commerce / Arts — University of Auckland',
+        period: '2015 – 2019',
+        lines: ['Accounting, Psychology, Criminology'],
+      },
+    ],
+  },
+  {
     title: 'Extracurricular Activities',
     items: [
       {
@@ -76,8 +72,7 @@ const sections = [
       {
         heading: 'Year Group Lead & Social Committee — Ernst & Young',
         lines: [
-          'Ensuring voices of colleagues are heard at monthly meetings held with other year group leaders and Partners.',
-          'Organising social functions for the assurance service line (monthly and quarterly).',
+          'Ensuring voices of colleagues are heard at monthly meetings held with other year group leaders and Partners. Organising social functions for the assurance service line (monthly and quarterly).',
         ],
       },
     ],

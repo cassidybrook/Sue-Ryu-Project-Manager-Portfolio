@@ -15,7 +15,7 @@ export function Education() {
           description="Professional accounting pathway alongside tertiary study in commerce and arts."
         />
 
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {education.map((item) => (
             <article
               key={item.id}

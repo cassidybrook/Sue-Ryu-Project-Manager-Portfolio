@@ -9,7 +9,7 @@ export function Experience() {
           id="experience"
           eyebrow="Career"
           title="Work Experience"
-          description="Delivery enablement and finance roles at Air New Zealand, alongside assurance experience at Ernst & Young."
+          description="Project management and finance roles at Air New Zealand, alongside assurance experience at Ernst & Young."
         />
 
         <ol className="relative space-y-8 border-l border-border pl-8">

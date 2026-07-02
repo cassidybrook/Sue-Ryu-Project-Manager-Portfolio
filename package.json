@@ -8,7 +8,6 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "generate-cv": "node scripts/generate-cv.mjs",
     "generate-cv": "node scripts/generate-cv.mjs"
   },
   "dependencies": {
